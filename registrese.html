@@ -1,0 +1,73 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>La cocina de Juan</title>
+    </head>
+    <body>
+        <header style="background-color: cadetblue;">
+            <nav>
+                <a href="index.html" style="background-color: cornflowerblue;">Home</a>
+                <a href="about.html" style="background-color: cornflowerblue;">Acerca de</a>
+                <a href="contact.html" style="background-color: cornflowerblue;">Contacto</a>
+                <a href="registrese.html" style="background-color: cornflowerblue;">Registrese</a>
+                <a href="sucursales.html" style="background-color: cornflowerblue;">Sucursales</a>
+            </nav>
+            <h1 align="center">La cocina de Juan</h1>
+        </header>
+            <h2>Formulario de registro</h2>
+            <form action="show_data.html" target="_blank">
+                <label for="fname">Nombre: </label>
+                <input type="text" id="fname" name="fname" placeholder="Ingrese su nombre aqui...">
+                <br><br>
+                <label for="lname">Apellido: </label>
+                <input type="text" id="lname" name="lname" placeholder="Ingrese su apellido aqui...">
+                <br><br>
+                <label for="address">Direccion: </label>
+                <input type="text" id="address" name="address" placeholder="Ingrese su direccion aqui...">
+                <br><br>
+                <label for="city">Ciudad: </label>
+                <input type="text" id="city" name="city" value="C.A.B.A">
+                <br><br>
+                <label for="postal-code">Codigo Postal: </label>
+                <input type="text" id="postal-code" name="postal-code" placeholder="Ingrese su codigo postal aqui...">
+                <br><br>
+                <label for="birth-date">Fecha de Nacimiento (dd/mm/aaaa): </label>
+                <input type="date" id="birth-date" name="birth-date">
+                <br>
+
+                <p>Genero: 
+                <!-- no hay ninguno con checked -->
+                <input type="radio" id="male" name="gender" value="Hombre">
+                <label for="male">Hombre</label>
+                <input type="radio" id="female" name="gender" value="Mujer">
+                <label for="female">Mujer</label>
+                <input type="radio" id="other-gender" name="gender" value="otro">
+                <label for="other-gender">Otro</label>
+                </p>
+
+                <p>Estudios: 
+                <input type="checkbox" id="primary" name="estudios" value="Primarios">
+                <label for="primary">Primarios</label>
+                <input type="checkbox" id="secondary" name="estudios" value="Secundarios">
+                <label for="secondary">Secundarios</label>
+                <input type="checkbox" id="terciary" name="estudios" value="Terciarios">
+                <label for="terciary">Terciarios</label>
+                <input type="checkbox" id="other-estudios" name="estudios" value="Primarios">
+                <label for="other-estudios">Otros</label>
+                </p>
+                <br>
+
+                <input type="submit">
+                <button type="reset">Reset</button>
+            </form>
+            <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+            <br><br>
+        <footer align="center" style="background-color: cadetblue;">
+            <a href=""><img src="image/facebook.png" alt="facebook" width="25"></a>
+            <a href=""><img src="image/instagram.png" alt="instagram" width="25"></a>
+            <a href=""><img src="image/pinterest.png" alt="pinterest" width="25"></a>
+            <a href=""><img src="image/twitter.png" alt="twitter" width="25"></a>
+            <p>Derechos Reservados @2020</p>
+        </footer>
+    </body>
+</html>
